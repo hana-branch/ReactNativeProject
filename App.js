@@ -1,25 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-// import type {PropsWithChildren} from 'react';
-import {
-  Button,
-  // SafeAreaView,
-  // ScrollView,
-  // StatusBar,
-  // StyleSheet,
-  Linking,
-  Text,
-  // useColorScheme,
-  View,
-} from 'react-native';
-// import {
-//   Colors,
-//   DebugInstructions,
-//   Header,
-//   LearnMoreLinks,
-//   ReloadInstructions,
-// } from 'react-native/Libraries/NewAppScreen';
+import {Button, Linking, Text, View} from 'react-native';
 import branch from 'react-native-branch';
 
 function HomeScreen({navigation}) {
@@ -55,7 +37,6 @@ function DetailsScreen({navigation}) {
 const Stack = createNativeStackNavigator();
 
 function App() {
-  const linkData = {};
   const linking = {
     prefixes: ['/'],
 
